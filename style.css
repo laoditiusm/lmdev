@@ -870,7 +870,7 @@ nav .logo .item-name p {
 }
 
 #PBI {
-    background-color: rgb(196, 190, 1);
+    background-color: rgb(53, 51, 0);
     color: #fff;
     padding: 4px 5px;
     border-radius: 5px;
@@ -919,7 +919,7 @@ nav .logo .item-name p {
 }
 
 #JS {
-    background-color: rgb(215, 205, 5);
+    background-color: rgb(164, 156, 6);
     color: #fff;
     padding: 4px 5px;
     border-radius: 5px;
@@ -984,7 +984,7 @@ nav .logo .item-name p {
 
 .graphic-container {
     display: grid;
-    gap: 15px;
+    gap: 3px;
 }
 
 /* For large and medium screens */
@@ -1411,19 +1411,19 @@ nav .logo .item-name p {
     }
 
     p {
-        font-size: .9rem;
+        font-size: .8rem;
         opacity: .8;
     }
 
     h3 {
-        font-size: .9rem;
+        font-size: 1rem;
         margin-bottom: 15px;
         font-weight: 100;
         color: var(--font-white);
     }
 
     ul {
-        font-size: .8rem;
+        font-size: .9rem;
         opacity: .9;
         padding-left: 14px;
     }
@@ -1448,6 +1448,11 @@ nav .logo .item-name p {
     .footer .row ul li {
         text-align: center;
     }
+
+    .Service_Msg {
+        margin-top: 10px;
+        padding: 10px;
+    }
     /*------------------ My Formatting --------------- */
 
 
@@ -1468,7 +1473,7 @@ nav .logo .item-name p {
     }
 
     nav .logo img {
-        width: 45px;
+        width: 55px;
         padding-right: 6px;
     }
 
@@ -1489,7 +1494,7 @@ nav .logo .item-name p {
 
     .sidebar {
         padding: 5px;
-        gap: 5px;
+        gap: 7px;
     }
 
     .sidebar img {
@@ -1498,8 +1503,8 @@ nav .logo .item-name p {
     }
 
     .sidebar img {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 
     .main-content {
@@ -1511,7 +1516,7 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     .highlight {
@@ -1519,7 +1524,7 @@ nav .logo .item-name p {
     }
 
     .subtitle {
-        font-size: .9rem;
+        font-size: .7rem;
     }
 
     .buttons {
@@ -1530,7 +1535,7 @@ nav .logo .item-name p {
     .contact-btn {
         padding: 5px 6px;
         margin: 0 2px;
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .landing-image-box {
@@ -1541,6 +1546,14 @@ nav .logo .item-name p {
 
     .landing-image-box img {
         width: 90%;
+    }
+
+    .main-content .content {
+        width: 70%;
+    }
+
+    .main-content .landing-image-box {
+        width: 30%;
     }
 
     #swirl {
@@ -1594,7 +1607,7 @@ nav .logo .item-name p {
 
     .resume-button {
         font-size: .7rem;
-        padding: 3px 7px;
+        padding: 5px 7px;
     }
 
     .about-section {
@@ -1608,7 +1621,7 @@ nav .logo .item-name p {
     /*---------------About Styling-------------------*/
     /*---------------Skills Styling-------------------*/
     .skills-section #sectHead {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .tech-stack {
@@ -1716,6 +1729,7 @@ nav .logo .item-name p {
         text-align: left;
         align-items:start;
         margin-bottom: 20px;
+        border-radius: 10px 10px 0 0;
     }
 
     .projects-section .card .content-box {
@@ -1723,12 +1737,12 @@ nav .logo .item-name p {
     }
 
     .projects-section .card .links a p {
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .projects-section .card .img-box img  {
         height: 12rem;
-
+        border-radius: 10px 10px 0 0;
     }
 
     .projects-section .card .tech-box {
@@ -1752,6 +1766,15 @@ nav .logo .item-name p {
 
     .app-form-button {
         font-size: .7rem;
+    }
+
+    .projects-section .card-container .placeholder {
+        border-radius: 10px 20px 0 0;
+        background-color: red;
+    }
+
+    .projects-section .card-container .img-box {
+        border-radius: 10px 10px 0 0;
     }
 }
 
@@ -1829,7 +1852,7 @@ nav .logo .item-name p {
     }
 
     p {
-        font-size: .9rem;
+        font-size: .8rem;
         opacity: .8;
     }
 
@@ -1873,8 +1896,8 @@ nav .logo .item-name p {
     }
 
     .sidebar img {
-        width: 35px;
-        height: 35px;
+        width: 22px;
+        height: 22px;
     }
 
     .sidebar img:hover {
@@ -1890,7 +1913,7 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .highlight {
@@ -1898,7 +1921,7 @@ nav .logo .item-name p {
     }
 
     .subtitle {
-        font-size: .9rem;
+        font-size: .7rem;
     }
 
     .buttons {
