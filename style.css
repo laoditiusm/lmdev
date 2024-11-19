@@ -1516,15 +1516,15 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 2.2rem;
+        font-size: 2.13rem;
     }
 
     .highlight {
-        font-size: 1.6rem;
+        font-size: 2.1rem;
     }
 
     .subtitle {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     .buttons {
@@ -1546,14 +1546,15 @@ nav .logo .item-name p {
 
     .landing-image-box img {
         width: 90%;
+        display: none;
     }
 
     .main-content .content {
-        width: 70%;
+        width: 80%;
     }
 
     .main-content .landing-image-box {
-        width: 30%;
+        width: 10%;
     }
 
     #swirl {
@@ -1621,7 +1622,7 @@ nav .logo .item-name p {
     /*---------------About Styling-------------------*/
     /*---------------Skills Styling-------------------*/
     .skills-section #sectHead {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .tech-stack {
