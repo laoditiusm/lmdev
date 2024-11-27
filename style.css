@@ -1470,10 +1470,12 @@ nav .logo .item-name p {
         justify-content: space-between;
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem
     }
 
     nav .logo img {
-        width: 55px;
+        width: 63px;
         padding-right: 6px;
     }
 
@@ -1516,11 +1518,11 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 2.13rem;
+        font-size: 2.5rem;
     }
 
     .highlight {
-        font-size: 2.1rem;
+        font-size: 2.5rem;
     }
 
     .subtitle {
@@ -1612,7 +1614,7 @@ nav .logo .item-name p {
     }
 
     .about-section {
-        padding-top: 5px;
+        padding-top: 20px;
     }
 
     .image-placeholder {
@@ -1779,6 +1781,23 @@ nav .logo .item-name p {
     }
 }
 
+/* Mobile devices (portrait) */
+@media (max-width: 369px) {
+    .landing-page-container h1 {
+        font-size: 2.2rem;
+    }
+
+    .highlight {
+        font-size: 2.2rem;
+    }
+
+    .sidebar img {
+        width: 25px;
+        height: 25px;
+    }
+    
+
+}
 /* Mobile devices (landscape) */
 @media (min-width: 481px) and (max-width: 767px) {
 
@@ -1822,15 +1841,17 @@ nav .logo .item-name p {
         justify-content: space-between;
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     nav .logo img {
-        width: 45px;
+        width: 60px;
         padding-right: 6px;
     }
 
     nav .logo .item-name p {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .card-padding-x {
@@ -2065,10 +2086,16 @@ nav .logo .item-name p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding: .9rem 4rem;
     }
 
+    nav .logo img {
+        width: 57px;
+    }
+
+    nav .logo .item-name p {
+        font-size: 1.6rem;
+    }
     /*------------------ Navbar Formatting --------------- */
 
 
@@ -2306,7 +2333,7 @@ nav .logo .item-name p {
     }
 
     p {
-        font-size: .9rem;
+        font-size: 1rem;
         opacity: .8;
     }
 
@@ -2318,7 +2345,7 @@ nav .logo .item-name p {
     }
 
     ul {
-        font-size: .9rem;
+        font-size: 1rem;
         opacity: .9;
         padding-left: 14px;
     }
@@ -2333,6 +2360,18 @@ nav .logo .item-name p {
         padding-top: 0;
     }
 
+    nav .logo img {
+        width: 66px;
+    }
+
+    nav .logo .item-name p {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        padding-top: .9rem;
+        padding-bottom: .9rem;
+    }
 
     /*------------------ My Formatting --------------- */
 
@@ -2376,11 +2415,11 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 3.5rem;
+        font-size: 4.3rem;
     }
 
     .highlight {
-        font-size: 3.5rem;
+        font-size: 4.3rem;
     }
 
     .subtitle {
@@ -2511,18 +2550,17 @@ nav .logo .item-name p {
 
 
     /*------------------ My Formatting --------------- */
-
     .navbar-dark .navbar-nav .nav-link {
         padding-right: 20px;
     }
 
     nav .logo img {
-        width: 60px;
+        width: 64px;
         padding-right: 6px;
     }
     
     nav .logo .item-name p {
-        font-size:1.7rem;
+        font-size: 1.7rem;
         font-weight: bolder;
         opacity: 1;
         margin: 0;
@@ -2532,6 +2570,14 @@ nav .logo .item-name p {
         font-size: 1rem;
     }
 
+    .navbar {
+        padding-top: .9rem;
+        padding-bottom: .9rem;
+    }
+
+    ul li {
+        font-size: 1.3rem;
+    }
     /*---------------Landing Page Styling-------------------*/
     #Home {
         background-color: var(--primary-background-blue);
