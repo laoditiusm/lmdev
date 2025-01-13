@@ -1586,11 +1586,11 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .highlight {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .subtitle {
@@ -1659,8 +1659,8 @@ nav .logo .item-name p {
     }
 
     :root {
-        --header-font-size: 2.4em;
-        --subHeader-font-size: 1rem;
+        --header-font-size: 2.6em;
+        --subHeader-font-size: 1.3rem;
     }
 
     /*------------------- Heading section -----------------*/
