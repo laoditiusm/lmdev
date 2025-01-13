@@ -48,15 +48,15 @@ input {
 .back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 35px;
     display: none;
     /* Hidden initially */
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     font-size: 30px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1573,8 +1573,8 @@ nav .logo .item-name p {
     }
 
     .sidebar img {
-        width: 55px;
-        height: 55px;
+        width: 40px;
+        height: 40px;
     }
 
     .main-content {
@@ -1586,11 +1586,11 @@ nav .logo .item-name p {
     }
 
     .landing-page-container h1 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     .highlight {
-        font-size: 2.8rem;
+        font-size: 2.r2em;
     }
 
     .subtitle {
