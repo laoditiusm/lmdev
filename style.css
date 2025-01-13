@@ -1655,7 +1655,7 @@ nav .logo .item-name p {
     .subHeadPstn {
         position: relative;
         top: -1.9em;
-        left: 6em;
+        left: 4em;
     }
 
     :root {
@@ -1677,7 +1677,7 @@ nav .logo .item-name p {
     }
 
     .resume-button {
-        font-size: .7rem;
+        font-size: .9rem;
         padding: 5px 7px;
     }
 
