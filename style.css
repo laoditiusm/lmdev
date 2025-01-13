@@ -6,8 +6,8 @@
     --font-black: #0e0e0e;
     --secondary-color: #8E6202;
     --secondary-blue: #0075AC;
-    --header-font-size: 4.7rem;
-    --subHeader-font-size: 1.6rem;
+    --header-font-size: 4.9rem;
+    --subHeader-font-size: 1.9rem;
     --header-gray: #c7c7c7;
     --header-blue: #0a1639;
     --card-blue: #08112D;
@@ -1573,8 +1573,8 @@ nav .logo .item-name p {
     }
 
     .sidebar img {
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
     }
 
     .main-content {
@@ -1603,9 +1603,9 @@ nav .logo .item-name p {
 
     .resume-btn,
     .contact-btn {
-        padding: 5px 6px;
+        padding: 7px 7px;
         margin: 0 2px;
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     .landing-image-box {
@@ -1839,7 +1839,7 @@ nav .logo .item-name p {
     /* ----------------- Gallery Styling -----------------  */
 
     .app-form-button {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     .projects-section .card-container .placeholder {
