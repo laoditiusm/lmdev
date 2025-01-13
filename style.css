@@ -6,15 +6,15 @@
     --font-black: #0e0e0e;
     --secondary-color: #8E6202;
     --secondary-blue: #0075AC;
-    --header-font-size: 4.4rem;
-    --subHeader-font-size: 1.4rem;
+    --header-font-size: 4.7rem;
+    --subHeader-font-size: 1.6rem;
     --header-gray: #c7c7c7;
     --header-blue: #0a1639;
     --card-blue: #08112D;
     --skills-header-grey: #313131;
     --skills-background: #131313;
     --skills-card-grey: #131313;
-    --primary-font-size: 1rem;
+    --primary-font-size: 1.1rem;
     --padding: 10px;
     --margin-t: 4em;
     --padding-x: 6em;
@@ -55,9 +55,9 @@ input {
     color: white;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -125,13 +125,13 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
     opacity: .8;
     margin-bottom: 0;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
     font-weight: 100;
     color: var(--font-white);
@@ -1217,7 +1217,7 @@ nav .logo .item-name p {
     flex-direction: column;
     position: relative;
     color: #ea1d6f;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .app-title:after {
@@ -1257,7 +1257,7 @@ nav .logo .item-name p {
     border: none;
     border-bottom: 1px solid #666;
     color: #ddd;
-    font-size: .7rem;
+    font-size: .9rem;
     text-transform: uppercase;
     outline: none;
     transition: border-color .2s;
@@ -1274,7 +1274,7 @@ nav .logo .item-name p {
 .app-form-button {
     border: none;
     color: var(--font-white);
-    font-size: .9rem;
+    font-size: 1.1rem;
     cursor: pointer;
     outline: none;
     padding: 4px 6px;
