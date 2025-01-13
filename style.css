@@ -1855,7 +1855,7 @@ nav .logo .item-name p {
 /* Mobile devices (portrait) */
 @media (max-width: 369px) {
     .landing-page-container h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .highlight {
@@ -1863,8 +1863,8 @@ nav .logo .item-name p {
     }
 
     .sidebar img {
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
 
 
